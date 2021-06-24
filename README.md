@@ -23,41 +23,41 @@ A fully functional ECommerce application made in MERN stack.
 ### Product Details Screen
 <br/>
 <p>
-  <img src="/images/digi_2.jpg" width="500"  />
+  <img src="/images/digi_2.jpg" width="650"  />
 </p>
 <hr/>
 
 ### Cart Screen
 <br/>
 <p>
-  <img src="/images/digi_3.jpg" width="500"  />
+  <img src="/images/digi_3.jpg" width="650"  />
 </p>
 <hr/>
 
 ### Shipping Screen
 <br/>
 <p>
-  <img src="/images/digi_4.jpg" width="500"  />
+  <img src="/images/digi_4.jpg" width="650"  />
 </p>
 <hr/>
 
 ### Order Summary Screen
 <br/>
 <p>
-  <img src="/images/digi_5.jpg" width="500"  />
+  <img src="/images/digi_5.jpg" width="650"  />
 </p>
 <hr/>
 
 ### Order Details Screen
 <br/>
 <p>
-  <img src="/images/digi_6.jpg" width="500"  />
+  <img src="/images/digi_6.jpg" width="650"  />
 </p>
 <hr/>
 
 ### Profile Screen
 <br/>
 <p>
-  <img src="/images/digi_7.jpg" width="500"  />
+  <img src="/images/digi_7.jpg" width="650"  />
 </p>
 <hr/>
