@@ -16,7 +16,7 @@ A fully functional ECommerce application made in MERN stack.
 ### Home Page
 <br/>
 <p>
-  <img src="/images/digi_1.jpg" width="500"  />
+  <img src="/images/digi_1.jpg" width="650"  />
 </p>
 <hr/>
 
