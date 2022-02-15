@@ -5,8 +5,12 @@ import { useDispatch, useSelector } from 'react-redux'
 import { listProducts } from '../actions/productActions'
 import Message from '../components/Message'
 import Loader from '../components/Loader'
+import Meta from '../components/Meta'
 
-const HomeScreen = () => {
+const HomeScreen = ({ match }) => {
+
+  const keyword = match.params.keyword
+
 
   const dispatch = useDispatch()
 
@@ -15,13 +19,14 @@ const HomeScreen = () => {
 
 
   useEffect(() => {
-    dispatch(listProducts())
-  },[dispatch])
+    dispatch(listProducts(keyword))
+  },[dispatch,keyword])
 
   
     return (
         <>
-        <h1>Latest Productsssss</h1>
+        <Meta />
+        <h1>Latest Products</h1>
         {loading ? (
           <Loader/>
         ) : error ? (
@@ -35,7 +40,6 @@ const HomeScreen = () => {
             ))}
           </Row>
         )}
-        
         </>
     )
 }
